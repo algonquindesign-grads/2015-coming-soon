@@ -8,7 +8,7 @@ The coming soon splash page for the 2015 Algonquin Design Grad website.
 
 ## Team Members
 
-- @thomasjbradley
+- [@thomasjbradley](https://github.com/thomasjbradley)
 
 ---
 

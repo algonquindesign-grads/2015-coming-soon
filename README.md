@@ -1,4 +1,4 @@
-# Algonquin Design Grads 2015 Coming Soon
+# Algonquin Design Grads 2015<br>Coming Soon
 
 The coming soon splash page for the 2015 Algonquin Design Grad website.
 

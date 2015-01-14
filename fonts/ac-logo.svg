@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ac-logo" unicode="&#xe800;" d="m130 103c0 0 643 212 645 212 0 268 180 463 450 463 0-58 0-117 0-175-356 0-323-525 0-525 0 0 0-174 0-176-203 0-317 121-331 132 0-2 48-119 50-126h-207l-69 176h-356c-13-38-57-155-63-176-202 0-202 0-202 0l83 195z m614 275l-176-31-75 194-93-226c0 0-168-31-201-37l207 488c58 0 116 0 175 0l163-388z" horiz-adv-x="1294" />
+</font>
+</defs>
+</svg>

@@ -6,7 +6,6 @@ h1 {
 	font-family: Futura, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 40pt;
-	text-align: center;
 	margin-bottom: 0;
 }
 
@@ -14,7 +13,6 @@ h2 {
 	font-family: Futura, Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 25pt;
-	text-align: center;
 	margin-top: 0.25rem;
 }
 
@@ -25,5 +23,22 @@ ul
 
 li {
 	display: inline-block;
+	width: 40px;
 }
 
+.content {
+	text-align: center;
+}
+
+.countdown {
+	font-family: Futura, Helvetica, sans-serif;
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.8);
+	padding: 30px 20px;
+	color: white;
+}
+
+.date-space {
+	margin-top: .5rem;
+}

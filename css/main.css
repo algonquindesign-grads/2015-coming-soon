@@ -1,10 +1,6 @@
 body {
 	background-color: #ccc;
 }
-ul
-{
-list-style-type: none;
-}
 
 h1 {
 	font-family: Futura, Helvetica, sans-serif;
@@ -20,4 +16,13 @@ h2 {
 	font-size: 25pt;
 	text-align: center;
 	margin-top: 0.25rem;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
 }

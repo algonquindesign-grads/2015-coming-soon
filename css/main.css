@@ -80,7 +80,8 @@ h4 {
 	color: #fff;
 }
 
-h4:visited {
+h4:visited,
+a:visited {
 	color: #fff;
 }
 

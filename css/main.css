@@ -1,45 +1,113 @@
 body {
-	background-color: #ccc;
+	background-color: #000;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
 }
 
+/*																	LOGO*/
+
+.logo {
+	position: relative;
+	margin: 0 auto;
+	width: 40%;
+	margin-top: 2em;
+}
+
+.logo img {
+	width: 100%;
+}
+
+/*																	LOGO*/
+
 h1 {
-	font-family: Futura, Helvetica, sans-serif;
-	font-weight: 600;
-	font-size: 40pt;
+	font-weight: 200;
+	font-size: 1em;
 	margin-bottom: 0;
 }
 
 h2 {
-	font-family: Futura, Helvetica, sans-serif;
-	font-weight: 400;
-	font-size: 25pt;
-	margin-top: 0.25rem;
+	font-weight: 600;
+	font-size: 2.5em;
+	margin-top: 1rem;
 }
 
-ul
-{
+h3 {
+	font-weight: 200;
+	font-size: 1em;
+	margin-bottom: 0.5em;
+}
+
+.date {
+	font-weight: 400;
+	margin-top: 0;
+}
+
+/*																	BUTTONS*/
+
+.invites {
+	position: absolute;
+	width: 100%;
+	margin: 2em auto 1em;
+}
+
+.left,
+.right {
+	width: 240px;
+	display: inline-block;
+	margin: 0 3%;
+}
+
+.left h4 {
+	padding-left: 1em;
+}
+
+.right h4 {
+	padding-left: 2.5em;
+}
+
+h4 {
+	position: absolute;
+	margin-top: 0.75em;
+}
+
+@media only screen and (max-width: 60em) {
+	.logo {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 35em) {
+	.logo {
+		width: 80%;
+	}
+	.social {
+		margin-top: 10em;
+	}
+}
+
+/*																	SOCIAL*/
+
+ul {
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 7em;
+}
+
+ul li {
+	display: inline-block;
+	padding: 0 2em;
+	margin: 0;
+}
+
+ul li a {
+	margin: 0;
 	padding: 0;
 }
 
-li {
-	display: inline-block;
-	width: 40px;
-}
-
-.content {
-	text-align: center;
-}
-
-.countdown {
-	font-family: Futura, Helvetica, sans-serif;
-	width: 70%;
-	margin: 0 auto;
-	background-color: rgba(0,0,0,.8);
-	padding: 30px 20px;
-	color: white;
-}
-
-.date-space {
-	margin-top: .5rem;
+ul li a img {
+	margin: 0;
+	padding: 0;
+	width: 50px;
 }

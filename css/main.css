@@ -52,8 +52,8 @@ h3 {
 
 .invites {
 	position: absolute;
-	width: 90%;
-	margin: 2em auto 1em;
+	width: 85%;
+	margin: 2em 0 1em;
 }
 
 .left,
@@ -69,7 +69,7 @@ h3 {
 }
 
 .left h4 {
-	padding-left: 3.3em;
+	padding-left: 3.5em;
 	color: #fff;
 }
 
@@ -92,21 +92,6 @@ a:visited {
 
 .invites h4:hover {
 	color: #ff0;
-}
-
-@media only screen and (max-width: 60em) {
-	.logo {
-		width: 60%;
-	}
-}
-
-@media only screen and (max-width: 35em) {
-	.logo {
-		width: 80%;
-	}
-	.social {
-		margin-top: 10em;
-	}
 }
 
 /*																	SOCIAL*/
@@ -138,4 +123,27 @@ ul li a img {
 
 ul li a img:hover {
 	transform: scale(1.25);
+}
+
+/*																		MEDIA*/
+
+@media only screen and (max-width: 60em) {
+	.logo {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 35em) {
+	.logo {
+		width: 80%;
+	}
+	.social {
+		margin-top: 10em;
+	}
+	ul li {
+		padding: 0 1em;
+	}
+	.right {
+		margin-top: 1em;
+	}
 }

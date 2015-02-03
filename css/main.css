@@ -90,6 +90,10 @@ a:visited {
 	color: #fff;
 }
 
+.invites h4:hover {
+	color: #ff0;
+}
+
 @media only screen and (max-width: 60em) {
 	.logo {
 		width: 60%;
@@ -129,4 +133,9 @@ ul li a img {
 	margin: 0;
 	padding: 0;
 	width: 40px;
+	transition: all 200ms ease-in;
+}
+
+ul li a img:hover {
+	transform: scale(1.25);
 }
